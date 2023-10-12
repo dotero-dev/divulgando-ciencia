@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Las matemáticas en una telaraña
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

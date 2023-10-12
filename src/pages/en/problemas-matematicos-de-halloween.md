@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Problemas matemáticos de Halloween
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: En el corazón de un copo de nieve
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Qué es el número Googol
 autor: Neplod
 fotoDelAutor: /images/autores/neplod.webp

@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Los climogramas
 autor: abgomez
 fotoDelAutor: /images/autores/anonimo.svg

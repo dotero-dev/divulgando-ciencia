@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Dorothy Crowfoot
 autor: Lucas P.
 fotoDelAutor: /images/autores/anonimo.svg

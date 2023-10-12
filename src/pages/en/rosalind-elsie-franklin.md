@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Rosalind Franklin
 ciencia: científicos
 portada: /images/contenido/rosalind-franklin/portada.webp

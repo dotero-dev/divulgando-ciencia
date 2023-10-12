@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/ArticleLayout.astro
+layout: ../../layouts/ArticleLayout.astro
 titulo: Cómo midió Eratóstenes la Tierra con un palo
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp
