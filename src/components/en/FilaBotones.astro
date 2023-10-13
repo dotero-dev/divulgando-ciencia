@@ -1,0 +1,156 @@
+---
+import Boton from "./Boton.astro";
+const {inicial} = Astro.props
+---
+
+<ul class="lg:flex lg:gap-x-2 w-full justify-center my-4 py-2" id={inicial}>
+    <div class="md:flex gap-x-2 md:w-full lg:w-fit justify-center">
+        <div class="flex gap-x-2 md:w-fit w-full justify-center">
+            <div id="maths">
+                <div class="none">
+                    <Boton ciencia="maths" direccion="/en/articles/maths" inicial={inicial} id="maths"/>
+                </div>
+                <div class="clic">
+                    <Boton ciencia="maths" direccion="/en/articles/" inicial={inicial} id="maths"/>
+                </div>
+            </div>
+            <div id="biology">
+                <div class="none">
+                    <Boton ciencia="biology" direccion="/en/articles/biology" inicial={inicial} id="biology"/>
+                </div>
+                <div class="clic">
+                    <Boton ciencia="biology" direccion="/en/articles/" inicial={inicial} id="biology"/>
+                </div>
+            </div>
+            <div id="geology">
+                <div class="none">
+                    <Boton ciencia="geology" direccion="/en/articles/geology" inicial={inicial} id="geology"/>
+                </div>
+                <div class="clic">
+                    <Boton ciencia="geology" direccion="/en/articles/" inicial={inicial} id="geology"/>
+                </div>
+            </div>
+        </div>
+        <div class="flex gap-x-2 md:w-fit w-full justify-center my-3 md:m-0">
+            <div id="physics">
+                <div class="none">
+                    <Boton ciencia="physics" direccion="/en/articles/physics" inicial={inicial} id="physics"/>
+                </div>
+                <div class="clic">
+                    <Boton ciencia="physics" direccion="/en/articles/" inicial={inicial} id="physics"/>
+                </div>
+            </div>
+            <div id="chemistry">
+                <div class="none">
+                    <Boton ciencia="chemistry" direccion="/en/articles/chemistry" inicial={inicial} id="chemistry"/>
+                </div>
+                <div class="clic">
+                    <Boton ciencia="chemistry" direccion="/en/articles/" inicial={inicial} id="chemistry"/>
+                </div>
+            </div>
+            <div id="technology">
+                <div class="none">
+                    <Boton ciencia="technology" direccion="/en/articles/technology" inicial={inicial} id="technology"/>
+                </div>
+                <div class="clic">
+                    <Boton ciencia="technology" direccion="/en/articles/" inicial={inicial} id="technology"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex gap-x-2 w-full lg:w-fit justify-center md:mt-3 lg:m-0">
+        <div id="coding">
+            <div class="none">
+                <Boton ciencia="coding" direccion="/en/articles/coding" inicial={inicial} id="coding"/>
+            </div>
+            <div class="clic">
+                <Boton ciencia="coding" direccion="/en/articles/" inicial={inicial} id="coding"/>
+            </div>
+        </div>
+        <div id="scientifics">
+            <div class="none">
+                <Boton ciencia="scientifics" direccion="/en/articles/scientifics" inicial={inicial} id="scientifics"/>
+            </div>
+            <div class="clic">
+                <Boton ciencia="scientifics" direccion="/en/articles" inicial={inicial} id="scientifics"/>
+            </div>
+        </div>
+    </div>
+</ul>
+
+<style>
+    .clic{
+        display:none;
+    }
+    #m #maths{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+
+    #b #biology{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+
+    #g #geology{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+    
+    #f #physics{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+
+    #q #chemistry{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+
+    #t #technology{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+
+    #p #coding{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+
+    #c #scientifics{
+        .clic{
+            display:block;
+        }
+        .none{
+            display:none;
+        }
+    }
+</style>
