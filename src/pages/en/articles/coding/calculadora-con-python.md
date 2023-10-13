@@ -1,13 +1,13 @@
 ---
 layout: ../../../../layouts/en/ArticleLayout.astro
-titulo: Calculadora con Python
-autor: Darío
+titulo: Calculator with Python
+autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp
 portada: /images/contenido/calculadora-con-python/portada.webp
-portadaAlt: ALT
-ciencia: programación
-fechaMostrar: 1 octubre, 2022
+portadaAlt: Some lines of code in Python
+ciencia: coding
+fechaMostrar: 1 October, 2022
 fechaOrdenar: Oct 1, 2022
 duracion: 6
-url: /calculadora-con-python
+url: /en/calculator-with-python
 ---
