@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: Conociendo a nuestros planetas
 autor: Biologramer
 fotoDelAutor: /images/autores/anonimo.svg

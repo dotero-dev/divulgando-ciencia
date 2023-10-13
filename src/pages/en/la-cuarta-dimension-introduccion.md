@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: 'La cuarta dimensión: introducción'
 autor: neplod
 fotoDelAutor: /images/autores/neplod.webp

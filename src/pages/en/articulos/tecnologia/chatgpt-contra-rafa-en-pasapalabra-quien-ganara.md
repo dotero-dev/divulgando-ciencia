@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ArticleLayout.astro
+layout: ../../../layouts/en/ArticleLayout.astro
 titulo: ChatGPT contra Rafa en Pasapalabra, ¿quién ganará?
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

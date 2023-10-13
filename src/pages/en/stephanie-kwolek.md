@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: Stephanie Kwolek
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

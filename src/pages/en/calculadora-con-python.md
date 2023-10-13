@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: Calculadora con Python
 autor: Darío
 fotoDelAutor: /images/autores/dario-o.webp

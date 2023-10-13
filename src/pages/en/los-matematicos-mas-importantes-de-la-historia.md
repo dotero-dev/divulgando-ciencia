@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: Los matemáticos más importantes de la historia
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

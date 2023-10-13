@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: Las arañas
 autor: BorealMantis
 fotoDelAutor: /images/autores/anonimo.svg

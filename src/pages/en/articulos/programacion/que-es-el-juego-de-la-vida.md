@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ArticleLayout.astro
+layout: ../../../layouts/en/ArticleLayout.astro
 titulo: Qué es el Juego de la Vida
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

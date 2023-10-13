@@ -1,9 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import Menu from "../../components/Menu.astro";
-import FilaBotones from "../../components/FilaBotonesDifuminados.astro";
-import SeccionArticulosPequenos from "../../components/SeccionArticulosPequenos.astro";
-const title = "Inicio";
+import Menu from "../../components/en/Menu.astro";
+import FilaBotones from "../../components/en/FilaBotonesDifuminados.astro";
+import SeccionArticulosPequenos from "../../components/en/SeccionArticulosPequenos.astro";
+const title = "Home";
 
 const articles = (await Astro.glob('./*.md')).sort((a, b) => Date.parse(b.frontmatter.fechaOrdenar) - Date.parse(a.frontmatter.fechaOrdenar));
 ---
@@ -20,7 +20,7 @@ const articles = (await Astro.glob('./*.md')).sort((a, b) => Date.parse(b.frontm
 				divulgandociencia.com
 			</h2>
 			<p class="text-base sm:text-lg lg:text-xl xl:text-2xl min-[1800px]:text-3xl min-[2250px]:text-4xl mb-8 md:mb-12 font-generalsans">
-				Descubre el poder de la divulgación científica abierta
+				Discover the power of the open science
 			</p>
             
         <FilaBotones id="botones" class="z-30 relative h-full flex flex-col text-principal-white "/>

@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ArticleLayout.astro
+layout: ../../../layouts/en/ArticleLayout.astro
 titulo: Convertir una moneda de cobre en plata
 autor: Darío O.
 fotoDelAutor: /images/autores/dario-o.webp

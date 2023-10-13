@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/ArticleLayout.astro
+layout: ../../layouts/en/ArticleLayout.astro
 titulo: 'La Cuarta Dimensión: Movimiento en dirección W'
 autor: Neplod
 fotoDelAutor: /images/autores/neplod.webp

@@ -1,9 +1,9 @@
 ---
 import PrincipalLayout from "./PrincipalLayout.astro";
-import Contenido from "../components/Contenido.astro";
-import DatosAutor from "../components/DatosAutor.astro";
+import Contenido from "../../components/en/Contenido.astro";
+import DatosAutor from "../../components/DatosAutor.astro";
 const{frontmatter} = Astro.props;
-const articulos = (await Astro.glob('../pages/*.md')).sort((a, b) => Date.parse(b.frontmatter.fechaOrdenar) - Date.parse(a.frontmatter.fechaOrdenar));
+const articulos = (await Astro.glob('../../pages/en/*.md')).sort((a, b) => Date.parse(b.frontmatter.fechaOrdenar) - Date.parse(a.frontmatter.fechaOrdenar));
 ---
 
 <PrincipalLayout title={frontmatter.titulo} description={frontmatter.descripcion} image={frontmatter.portada} {frontmatter} robots={frontmatter.robots}>
@@ -34,52 +34,52 @@ const articulos = (await Astro.glob('../pages/*.md')).sort((a, b) => Date.parse(
 </PrincipalLayout>
 
 <style>
-    #matemáticas{
+    #maths{
         color:#004193;
     }
-    #biología{
+    #biology{
         color:#005100;
     }
-    #geología{
+    #geology{
         color:#6E3400;
     }
-    #física{
+    #physics{
         color:#950000;
     }
-    #química{
+    #chemistry{
         color:#820083;
     }
-    #tecnología{
+    #technology{
         color:#623B00;
     }
-    #programación{
+    #coding{
         color:#5a12b0;
     }
-    #científicos{
+    #scientifics{
         color:#004f3e;
     }
-    :is(.dark #matemáticas) {
+    :is(.dark #maths) {
         color:#a8c6e3
     }
-    :is(.dark #biología) {
+    :is(.dark #biology) {
         color:#64db62
     }
-    :is(.dark #geología) {
+    :is(.dark #geology) {
         color:#e2bba5
     }
-    :is(.dark #física) {
+    :is(.dark #physics) {
         color:#ffaaa2
     }
-    :is(.dark #química) {
+    :is(.dark #chemistry) {
         color:#ff99ff
     }
-    :is(.dark #tecnología) {
+    :is(.dark #technology) {
         color:#f2ba48
     }
-    :is(.dark #programación) {
+    :is(.dark #coding) {
         color:#e9aaff
     }
-    :is(.dark #científicos) {
+    :is(.dark #scientifics) {
         color:#16dac0
     }
 </style>

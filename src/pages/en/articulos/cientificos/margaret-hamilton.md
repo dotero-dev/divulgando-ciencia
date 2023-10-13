@@ -1,5 +1,5 @@
 ---
-layout: ../../../layouts/ArticleLayout.astro
+layout: ../../../layouts/en/ArticleLayout.astro
 titulo: Margaret Hamilton
 autor: El taller de Ada
 fotoDelAutor: /images/autores/anonimo.svg
